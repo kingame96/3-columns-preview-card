@@ -1,0 +1,105 @@
+body {
+    padding: 7% 20% 5% 20%;
+    font-size: 0.9375rem;
+    font-family: "Lexend Deca";
+    background-color: hsl(0, 0%, 95%);
+}
+
+h1 {
+    font-family: "Big Shoulders Display";
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+}
+
+.main {
+    margin-bottom: 3rem;
+}
+.attribution {
+    text-align: center;
+}
+.col {
+    padding: 3rem;
+}
+
+.preview-element {
+    margin-bottom: 3rem;
+}
+
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.suv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.col div {
+    margin-bottom: 4rem;
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+button {
+    background-color: hsl(0, 0%, 95%);
+    margin-bottom: 1rem;
+    border: 2px solid white;
+    border-radius: 2rem;
+    padding: 0.75em 2rem;
+}
+
+.sedan button {
+    color: hsl(31, 77%, 52%);
+}
+
+.suv button {
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury button {
+    color: hsl(179, 100%, 13%);
+}
+
+button:hover {
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+}
+@media (max-width: 61.875rem) {
+    .sedan {
+        border-radius: 0rem;
+        border-top-left-radius: 1rem;
+    }
+    .suv {
+        border-radius: 0rem;
+        border-top-right-radius: 1rem;
+    }
+    .luxury {
+        border-radius: 0rem;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+}
+
+@media (max-width: 40.375rem) {
+    .sedan {
+        border-radius: 0rem;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+    .suv {
+        border-radius: 0rem;
+    }
+    .luxury {
+        border-radius: 0rem;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+}
